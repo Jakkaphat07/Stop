@@ -10,6 +10,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+    unset($_SESSION["username"]);
+    unset($_SESSION["role"]);
+    unset($_SESSION["id"]);
+    header("Location:index.php");
+    die()
+    ?>
 </body>
 </html>

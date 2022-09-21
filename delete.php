@@ -10,6 +10,11 @@
     <title>Document</title>
 </head>
 <body>
+    <?php
+    $num = $_GET['id'];
+    echo"ลบกระทู้หมายเลข $num<br>";
+    echo"<a href=index.php>กลับไปหน้าหลัก</a>";
+    ?>
     
 </body>
 </html>
